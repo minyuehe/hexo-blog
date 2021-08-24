@@ -1,0 +1,14 @@
+body {
+    background:url(/assets/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:50% 50%;
+    opacity: 0.8;
+    //可选
+    +mobile(){
+      //background-position: 0% -20%;https://i.loli.net/2018/12/29/5c270a0523154.jpg
+      //https://i.loli.net/2018/12/29/5c270fc2bfcad.png
+      background-image: url(https://ziyuan.lruihao.cn/images/bg_cell.png);
+      background-size: cover;
+    }
+}
